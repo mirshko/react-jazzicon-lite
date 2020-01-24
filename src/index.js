@@ -1,2 +1,2 @@
-export { default } from './Jazzicon';
-export { default as jsNumberForAddress } from './jsNumberForAddress';
+export { default } from "./Jazzicon";
+export { default as jsNumberForAddress } from "./jsNumberForAddress";

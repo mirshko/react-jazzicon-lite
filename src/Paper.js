@@ -1,12 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 const styles = {
-  borderRadius: '50px',
-  display: 'inline-block',
+  borderRadius: "50px",
+  display: "inline-block",
   margin: 0,
-  overflow: 'hidden',
-  padding: 0,
+  overflow: "hidden",
+  padding: 0
 };
 
 const Paper = ({ children, color, diameter, style: styleOverrides }) => (
@@ -17,7 +17,7 @@ const Paper = ({ children, color, diameter, style: styleOverrides }) => (
       backgroundColor: color,
       height: diameter,
       width: diameter,
-      ...styleOverrides,
+      ...styleOverrides
     }}
   >
     {children}
@@ -27,7 +27,7 @@ const Paper = ({ children, color, diameter, style: styleOverrides }) => (
 Paper.propTypes = {
   color: PropTypes.string,
   diameter: PropTypes.number,
-  style: PropTypes.object,
+  style: PropTypes.object
 };
 
 export default Paper;
